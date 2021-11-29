@@ -1,0 +1,1005 @@
+/* Сброс стилей*/
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+/*База*/
+	.parent {
+		width: 100%;
+		height: 100%;
+		/*position: fixed;*/
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		align-content: center; 
+		justify-content: center; 
+		overflow: auto;   
+	}
+
+	.block {
+		margin-top: 0px;
+		background: rgb(100, 100, 100);
+		width: 1200px;
+		height: 12008px;
+	}
+
+	body {
+		background-color: rgb(56, 56, 56);
+	}
+
+	.infa{
+		margin-left: 5px;
+		margin-right: 5px;
+		background: rgb(0, 0, 0);
+		height: 12108px;
+	}
+
+/*Меню*/
+
+	/*Базовый блок на котором распологаются все остальные объекты*/
+
+	.flex_fixed {
+	position: fixed;
+	height: 41px;
+	background-color: rgb(0, 0, 0);
+	z-index: 100;
+	}
+
+	/*Заполнители*/
+
+	.zapolnitel{
+
+		width:19.5%;
+		height:100%;
+		float:left;
+		border-width:0px;
+	}
+
+	.zapolnitel_mini{
+
+		width:0.25%;
+		height:100%;
+		float:left;
+		border-width:0px;
+	}
+
+	#button_menu_1{
+		width:12%;
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(254, 254, 34);
+	}
+
+	#button_menu_1:hover{
+		/*width:12.1%;*/
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+	#button_menu_2{
+		width:12%;
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(254, 254, 34);
+	}
+
+	#button_menu_2:hover{
+		/*width:12.1%;*/
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+	#button_menu_3{
+		width:12%;
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(254, 254, 34);
+	}
+
+	#button_menu_3:hover{
+		/*width:12.1%;*/
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+	#button_menu_4{
+		width:12%;
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(254, 254, 34);
+	}
+
+	#button_menu_4:hover{
+		/*width:12.1%;*/
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+	.button_menu_5{
+		width:12%;
+		height:100%;
+
+		/*background-color: rgb(0, 0, 0)*/
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(254, 254, 34);
+
+		background: rgb(0, 0, 0) /*url(button.png)*/ no-repeat top left;
+	}
+
+	.button_menu_5:hover{
+		/*width:12.1%;*/
+		height:100%;
+
+		background-color: rgb(0, 0, 0);
+
+		border-width:0px;
+
+		float:left;
+
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+/*Размещение картинки*/
+
+	.kartinka{
+		width: 100%;
+		height:100%;
+		background-size:cover;
+	}
+
+/*Градиент в разработке
+
+	.nacladka {
+		width: 100%;
+		position: fixed;
+		margin-top: 41px;
+		height: 50px;
+	}*/
+
+/*Основа контента*/
+	.razdel_line_256{
+		width: 100%;
+		height: 10px;
+		background-color: rgb(130, 130, 130);
+	}
+
+	.preview{
+		position: relative;
+		width: 100%;
+		height: 920px;
+		background-color: rgb(0, 0, 0);
+	}
+
+	.dostavka{
+		position: relative;
+		width: 100%;
+		height: 600px;
+		background-color: rgb(10, 10, 10);
+	}
+
+	.maps{
+		position: relative;
+		width: 100%;
+		height: 400px;
+	}
+
+	.menu{
+		position: static;
+		width: 100%;
+		height: 8500px;
+		background-color: rgb(200, 256, 256);
+	}
+
+/*Контент*/
+
+	.logo{	
+		position: absolute;
+		top:42%;
+		left:40%;
+		width: 254px;
+		height: 124px;
+	}
+
+	.kf1{
+		position: absolute;
+		top:6%;
+		left:4%;
+		width:291px;
+		height:207px;
+	}
+
+	.kf2{
+		position: absolute;
+		top:4%;
+		left:35%;
+		width: 353px;
+		height: 105px;
+	}
+
+	.kf3{
+		position: absolute;
+		top:6%;
+		right: 4%;
+		width: 207px;
+		height: 222px;
+	}
+
+	.kf4{
+		position: absolute;
+		bottom: 6%;
+		left: 30%;
+		width: 145px;
+		height: 156px;
+	}
+
+	.kf5{
+		position: absolute;
+		bottom: 3%;
+		left: 55%;
+		width: 137px;
+		height: 121px;
+	}
+
+	.kf6{
+		position: absolute;
+		bottom: 7%;
+		right: 2%;
+		width: 208px;
+		height: 442px;
+	}
+
+	.kf7{
+		position: absolute;
+		bottom:3%;
+		left:2%;
+		width: 183px;
+		height: 503px;
+	}
+
+/*Доставка*/
+			.dostavka_name_pause{
+				position: absolute;
+				width: 50%;
+				background-color: rgb(0, 0, 0);
+				top: 0%;
+				height: 2%;
+			}
+
+			.dostavka_name{
+				position: absolute;
+				width: 50%;
+				background-color: rgb(0, 0, 0);
+				top: 2%;
+				height: 8%;
+				font-size: 50px;
+				font-family: "Arial";
+				text-align:  center;
+
+				color: rgb(254, 254, 34);
+			}
+
+			.dostavka_text{
+				position: absolute;
+				top:10%;
+				width: 50%;
+				background-color: rgb(0, 0, 0);
+				height: 90%;
+			}
+
+			.dostavka_text_double{
+				position: absolute;
+				top: 25%;
+				left: 20%;
+				width: 60%;
+				background-color: rgb(0, 0, 0);
+				height: 70%;
+
+				color: rgb(256, 256, 256);
+				font-size: 20px;
+				font-family: "Times new roman";
+				text-align: center;
+				line-height: 1.4;
+			}
+
+			.dostavka_img{
+				position: absolute;
+				left: 50%;
+				width: 50%;
+				background-color: rgb(0, 0, 0);
+				height: 100%;
+			}
+
+/*Блок перед меню*/
+
+	.dop{
+		position: absolute;
+		left: 0%;
+		width: 1%;
+		height: 100%;
+		background-color: rgb(130, 130, 130);
+	}
+
+	.dops{
+		position: absolute;
+		right: 0%;
+		width: 1%;
+		height: 100%;
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_1{
+		position: absolute;
+		left: 1%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_1:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_2{
+		position: absolute;
+		left: 15%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_2:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_3{
+		position: absolute;
+		left: 29%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_3:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_4{
+		position: absolute;
+		left: 43%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_4:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_5{
+		position: absolute;
+		left: 57%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_5:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_6{
+		position: absolute;
+		left: 71%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_6:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	#baze_btn_7{
+		position: absolute;
+		left: 85%;
+		width: 14%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+		border-style: none;
+	}
+
+	#baze_btn_7:hover{
+		background-color: rgb(130, 130, 130);
+	}
+
+	.image{
+		position: absolute;
+		top: 15%;
+		left: 15%;
+		width: 70%;
+		height: 50%;
+	}
+
+	#iname{
+		position: absolute;
+		top: 75%;
+		left: 0%;
+		width: 100%;
+		height: 10%;
+
+		font-size: 20px;
+		font-family: "Arial";
+		text-align: center;
+		color: rgb(254, 254, 34);
+	}
+
+	#iname:hover{
+		color: rgb(256, 256, 256);
+	}
+
+/*Меню*/
+
+	/*Используется в начале и в конце для экономии*/
+	.menu_v{
+		position: relative;
+		width: 100%;
+		height: 250px;
+		background-color: rgb(0, 0, 0);
+	}
+
+	.pozition{;
+		position: relative;
+		width: 100%;
+		height: 500px;
+		background-color: rgb(0, 0, 0);
+	}
+
+	.photo{
+		position: absolute;
+		top:5%;
+		left:2%;
+		width: 40%;
+		height: 90%;
+	}
+
+	.name{
+		position: absolute;
+		top:5%;
+		right: 2%;
+		width: 53%;
+		height: 12%;
+
+		font-size: 50px;
+		font-family: "Arial";
+		text-align:  center;
+		color: rgb(254, 254, 34);
+	}
+
+	.opis{
+		position: absolute;
+		top: 22%;
+		right: 22%;
+		width: 33%;
+		height: 45%;
+
+		font-size: 20px;
+		font-family: "Times new roman";
+		text-align:  center;
+		color: rgb(256, 256, 256);
+	}
+
+	.snus{
+		position: absolute;
+		top: 22%;
+		right: 2%;
+		width: 17%;
+		height: 45%;
+
+		font-size: 16px;
+		font-family: "Times new roman";
+		text-align: left;
+		color: rgb(156, 156, 156);
+	}
+
+	.price{
+		position: absolute;
+		bottom: 18%;
+		right: 30%;
+		width: 25%;
+		height: 10%;
+
+		font-size: 30px;
+		font-family: "Times new roman";
+		text-align: left;
+		color: rgb(254, 254, 34);
+	}
+
+	.mass{
+		position: absolute;
+		bottom: 18%;
+		right: 2%;
+		width: 25%;
+		height: 10%;
+
+		font-size: 24px;
+		font-family: "Times new roman";
+		text-align: right;
+		color: rgb(150, 150, 150);
+	}
+
+	#btn{
+		position: absolute;
+		bottom: 5%;
+		right: 2%;
+		width: 18%;
+		height: 8%;
+		background-color: rgb(56, 56, 56);
+
+		border-width: 0px;
+		border-radius: 90px;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 26px;
+		color: rgb(256, 256, 256);
+		line-height: 1.6;
+	}
+
+	#btn:hover{
+		color: rgb(254, 254, 34);
+	}
+
+	.photo_r{
+		position: absolute;
+		top:5%;
+		right: 2%;
+		width: 40%;
+		height: 90%;
+	}
+
+	.name_r{
+		position: absolute;
+		top:5%;
+		left: 2%;
+		width: 53%;
+		height: 12%;
+
+		font-size: 50px;
+		font-family: "Arial";
+		text-align:  center;
+		color: rgb(254, 254, 34);
+	}
+
+	.opis_r{
+		position: absolute;
+		top: 22%;
+		left: 2%;
+		width: 33%;
+		height: 45%;
+
+		font-size: 20px;
+		font-family: "Times new roman";
+		text-align:  center;
+		color: rgb(256, 256, 256);
+	}
+
+	.snus_r{
+		position: absolute;
+		top: 22%;
+		left: 38%;
+		width: 17%;
+		height: 45%;
+
+		font-size: 16px;
+		font-family: "Times new roman";
+		text-align: left;
+		color: rgb(156, 156, 156);
+	}
+
+	.price_r{
+		position: absolute;
+		bottom: 18%;
+		left: 2%;
+		width: 25%;
+		height: 10%;
+
+		font-size: 30px;
+		font-family: "Times new roman";
+		text-align: left;
+		color: rgb(254, 254, 34);
+	}
+
+	.mass_r{
+		position: absolute;
+		bottom: 18%;
+		left: 30%;
+		width: 25%;
+		height: 10%;
+
+		font-size: 24px;
+		font-family: "Times new roman";
+		text-align: right;
+		color: rgb(150, 150, 150);
+	}
+
+	#btn_r{
+		position: absolute;
+		bottom: 5%;
+		left: 2%;
+		width: 18%;
+		height: 8%;
+		background-color: rgb(56, 56, 56);
+
+		border-width: 0px;
+		border-radius: 90px;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 26px;
+		color: rgb(256, 256, 256);
+		line-height: 1.6;
+	}
+
+	#btn_r:hover{
+		color: rgb(254, 254, 34);
+	}
+
+	.mangal_preview{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 25%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 40px;
+		color: rgb(254, 254, 34);
+		line-height: 1.7;
+	}
+
+	.mangal_name_1{
+		position: absolute;
+		top: 25%;
+		left: 0%;
+		width: 25%;
+		height: 20%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 24px;
+		color: rgb(156, 156, 156);
+		line-height: 2;
+	}
+
+	.mangal_name_2{
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		width: 25%;
+		height: 20%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 24px;
+		color: rgb(156, 156, 156);
+		line-height: 2;
+	}
+
+	.mangal_name_3{
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		width: 25%;
+		height: 20%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 24px;
+		color: rgb(156, 156, 156);
+		line-height: 2;
+	}
+
+	.mangal_name_4{
+		position: absolute;
+		top: 25%;
+		left: 75%;
+		width: 25%;
+		height: 20%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 24px;
+		color: rgb(156, 156, 156);
+		line-height: 2;
+	}
+	
+	.mangal_poz_1{
+		position: absolute;
+		top: 45%;
+		left: 0%;
+		width: 25%;
+		height: 55%;
+
+		text-align: center;
+		font-family: Times new roman;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 2;
+	}
+
+	.mangal_poz_2{
+		position: absolute;
+		top: 45%;
+		left: 25%;
+		width: 25%;
+		height: 55%;
+
+		text-align: center;
+		font-family: Times new roman;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 2;
+	}
+
+	.mangal_poz_3{
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		width: 25%;
+		height: 55%;
+
+		text-align: center;
+		font-family: Times new roman;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 2;
+	}
+
+	.mangal_poz_4{
+		position: absolute;
+		top: 45%;
+		left: 75%;
+		width: 25%;
+		height: 55%;
+
+		text-align: center;
+		font-family: Times new roman;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 2.8;
+	}
+
+/*Декоративное разделение частей*/
+
+	.polosa{
+		background-color: rgb(256, 256, 256);
+		height: 5px;
+	}
+
+/*Подвал*/
+	.foot{
+		background-color: rgb(0, 0, 0);
+		height: 100px;
+	}
+
+	/*Объекты*/
+
+		.foot_baza{
+			position: relative;
+			width: 100%;
+			background-color: rgb(0, 0, 0);
+			height: 100%;
+		}
+
+		.foot_text_1{
+			position: absolute;
+
+			width: 100%;
+
+			top: 0%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 0, 0);*/
+
+			color: rgb(256, 256, 256);
+			font-size: 18px;
+			font-family: "Times new roman";
+			text-align: center;
+		}
+
+		.foot_text_2{
+			position: absolute;
+
+			width: 100%;
+
+			top: 25%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 256, 0);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 14px;
+			font-family: "Times new roman";
+			text-align: center;
+		}
+
+		.foot_text_3{
+			position: absolute;
+
+			width: 100%;
+
+			top: 43.5%;
+
+			height: 15%;
+
+			/*background-color: rgb(0, 256, 0);*/
+
+			color: rgb(256, 256, 256);
+			font-size: 16px;
+			font-family: "Times new roman";
+			text-align: left;
+		}
+
+		/*Завышенный подъем для влезания текста в объект подвала*/
+
+		.foot_text_4{
+			position: absolute;
+
+			width: 90%;
+
+			top: 82%;
+
+			height: 15%;
+
+			/*background-color: rgb(0, 0, 256);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 16px;
+			font-family: "Times new roman";
+			text-align: left;
+		}
+
+		.foot_text_5{
+			position: absolute;
+
+			width: 10%;
+
+			left: 90%;
+
+			top: 80%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 0, 256);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 18px;
+			font-family: "Times new roman";
+			text-align: right;
+		}

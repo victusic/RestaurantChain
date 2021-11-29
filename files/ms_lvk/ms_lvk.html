@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<link href="../css_styles/m_l.css" rel="stylesheet">
+		<title>Мясная лавка</title>
+		<script type="text/javascript" src="files/jquery/jquery-1.3.2.js"></script>
+
+	</head>
+	<body>
+
+		<!-- Меню -->
+
+		<div class="flex_fixed">
+
+			<!-- Отступ -->
+
+			<object class="zapolnitel"></object>
+
+			<!-- Кнопка "Главная" -->
+
+			<button id = "button_menu_1">Мясная лавка</button>
+
+			<!-- Ниже скрипты для выполнения скролла -->
+			<!-- Дальше документировать не буду-->
+
+			<script>
+				function vipolnenie_comandi(){
+					window.scrollTo({
+						top: 0,
+						behavior: "smooth"
+					});
+				}
+				var peremennay = document.getElementById("button_menu_1");
+				peremennay.addEventListener("click", vipolnenie_comandi);
+			</script>
+
+			<!-- Расстояние между кнопками -->
+
+			<object class="zapolnitel_mini"></object>
+
+			<!-- Кнопка 2 -->
+
+			<button id = "button_menu_2">Доставка</button>
+
+			<script>
+				function vipolnenie_comandi(){
+					window.scrollTo({
+						top: 1090,
+						behavior: "smooth"
+					});
+				}
+				var peremennay = document.getElementById("button_menu_2");
+				peremennay.addEventListener("click", vipolnenie_comandi);
+			</script>
+
+			<object class="zapolnitel_mini"></object>
+
+			<!-- Кнопка 3 -->
+
+			<button id = "button_menu_3">Меню</button>
+
+			<script>
+				function vipolnenie_comandi(){
+					window.scrollTo({
+						top: 2015,
+						behavior: "smooth"
+					});
+				}
+				var peremennay = document.getElementById("button_menu_3");
+				peremennay.addEventListener("click", vipolnenie_comandi);
+			</script>
+
+			<object class="zapolnitel_mini"></object>
+
+			<!-- Кнопка 4 -->
+
+			<button id = "button_menu_4">Личный кабинет</button>
+
+			<script>
+				function vipolnenie_comandi(){
+					
+				}
+				var peremennay = document.getElementById("button_menu_4");
+				peremennay.addEventListener("click", vipolnenie_comandi);
+			</script>
+
+			<object class="zapolnitel_mini"></object>
+
+			<!-- Кнопка 5 -->
+
+			<button class="button_menu_5">Корзина</button>
+
+			<!-- Снова заполнитель -->
+
+			<object class="zapolnitel"></object>
+		</div>
+
+		<div class="otstup">
+		</div>
+
+		<!-- Основной поток информации -->
+
+		<div class="content">
+
+			<!-- Видео -->
+
+				<div class="video">
+					<video src="vid/m_lvk.mp4" width=100% autoplay loop muted></video>
+				</div>
+
+				<div class="flex_line_256"></div>
+
+			<!-- Доставка -->
+
+				<div class="dostavka">
+					<div class="dostavka_name_pause"></div>
+					<div class="dostavka_name">Доставка</div>
+					<div class="dostavka_text">
+						<div class="dostavka_text_double">
+							<p>Если у вас нет времени и возможности приготовить вкусную еду самостоятельно, решение есть! Заказать еду на дом вы можете прямо сейчас на нашем сайте!</p>
+							<p>У нас только свежие и вкусные блюда!</p>
+							<p>Бесплатная доставка от 1000 р.</p>
+							<p>Заказы принимаются до 22:30. </p>
+							<p>Доставляем в течение 80 минут! Вы можете оплатить заказ на сайте либо через курьера.</p>
+							<p>Телефон доставки: +7 953 071 66 95</p>
+							<p>Доставка осуществяется в специальных контейнерах, сам продукт обёрнут бумагой и 2 слоями фольги, для сохранения температуры</p>
+						</div>
+					</div>
+					<div class="dostavka_img">
+						<div class="kartinka" style="background-image: url('dstvk/mlvk_d.png');">
+						</div>
+					</div>
+					<div class="pozition">
+						<div class="maps_2d">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1409.07421700506!2d38.997628786325954!3d45.06249992314826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0459c242ab127%3A0xe1021e6ea2c6f4fe!2z0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrQvtC70LvQtdC00LYg0Y3Qu9C10LrRgtGA0L7QvdC90L7Qs9C-INC_0YDQuNCx0L7RgNC-0YHRgtGA0L7QtdC90LjRjyAo0JrQmtCt0J8p!5e0!3m2!1sru!2sru!4v1566077507522!5m2!1sru!2sru" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+		
+			<div class="flex_line_256"></div>
+
+			<!-- Основное меню -->
+
+				<div class="menu_baze">
+					<div class="zag_burg">
+						Бургеры*
+					</div>
+						<div class="burg1">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger1.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Классический чизбургер
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины с сыром чеддер и овощами.
+							</div>
+							<div class="burg_price">
+								540 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg2">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger2.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Чизбургер с беконом
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, салат коу сло, сыр чеддер, бекон, карамелизированный лук и домашние луковые кольца фри.
+							</div>
+							<div class="burg_price">
+								590 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg3">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger3.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Бургер с яйцом
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, маринованные огурчики, хашбрауни, сыр моцарелла и яичница с беконом.
+							</div>
+							<div class="burg_price">
+								590 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg4">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger4.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Бургер с грибами
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, карамелизированный лук,томаты, сыр моцарелла, шампиньоны и белые грибы в сливочном соусе.
+							</div>
+							<div class="burg_price">
+								540 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg5">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger5.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Форест гамп
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, салат руккола, сыр моцарелла и опята в сливочном соусе
+							</div>
+							<div class="burg_price">
+								540 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg6">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger6.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Блючиз
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, карамелизированный лук, томаты, сыр с голубой плесенью, бекон и соус из белого шоколада.
+							</div>
+							<div class="burg_price">
+								590 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg7">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger7.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Нью Йорк
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины с начинкой из сыра моцарелла, брынза, огурец, лист салата, болгарский перец и салат коу сло.
+							</div>
+							<div class="burg_price">
+								640 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg8">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger8.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Чили бургер
+							</div>
+							<div class="burg_const">
+								Две сочные котлеты из 100% мраморной говядины ,сыр чеддар,перец халапеньо, домашний соус чили кон-карне и кольца красного лука.
+							</div>
+							<div class="burg_price">
+								640 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg9">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger9.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Бали
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины,сыр чеддер, кольца ананаса и бекон.
+							</div>
+							<div class="burg_price">
+								490 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg10">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger10.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Чикен Карри
+							</div>
+							<div class="burg_const">
+								Сочная куриная котлета, сыр чеддер, бекон, маринованный огурчик, томаты, салат айсберг
+							</div>
+							<div class="burg_price">
+								490 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg11">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger11.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Бекон Джем
+							</div>
+							<div class="burg_const">
+								Сочная котлета из 100% мраморной говядины, сыр моцарелла, салат айсберг и домашний беконовый джем
+							</div>
+							<div class="burg_price">
+								540 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg12">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger12.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Чизмастер
+							</div>
+							<div class="burg_const">
+								Две сочные котлеты из 100% мраморной говядины, домашний соус bbq, много сыра (сыр чеддер и еще раз чеддер), стейк из моцареллы, домашний сырный соус.
+							</div>
+							<div class="burg_price">
+								640 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg13">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger13.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Кантри бургер
+							</div>
+							<div class="burg_const">
+								Две сочные котлеты из 100% мраморной говядины,карамелизированный лук, маринованные огурчики,сыр чеддер и яичница с беконом.
+							</div>
+							<div class="burg_price">
+								790 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg14">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger14.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Беконатор
+							</div>
+							<div class="burg_const">
+								Две сочные котлеты из 100% мраморной говядины,грильчиз из мелта сыров чеддер и моцарелла, бекон и сыр чеддер
+							</div>
+							<div class="burg_price">
+								790 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+
+						<div class="burg15">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger15.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Чемпион
+							</div>
+							<div class="burg_const">
+								Пять сочных котлет из 100% мраморной говядины, бекон и сыр чеддер.
+							</div>
+							<div class="burg_price">
+								1340 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+					<div class="zag_sal">
+						Салаты
+					</div>
+						<div class="sal1">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger16.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Цезарь
+							</div>
+							<div class="burg_const">
+								Курица в сочетании со свежим салатом, яйцом домашними сухарями, вусторским соусом и соусом с анчоусами.
+							</div>
+							<div class="burg_price">
+								390 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="sal2">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger17.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Мясной
+							</div>
+							<div class="burg_const">
+								Листья салата, мраморная говядина, помидоры черри и медово-горчичная заправка.
+							</div>
+							<div class="burg_price">
+								490 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="sal3">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger18.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Греческий
+							</div>
+							<div class="burg_const">
+								Листья салата, помидоры черри, огурцы, сыр фета, маслины и соус песто.
+							</div>
+							<div class="burg_price">
+								340 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+					<div class="zag_zac">
+						Закуски
+					</div>
+						<div class="zac1">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger19.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Картофельная тарелка
+							</div>
+							<div class="burg_const">
+								Домашние картофельные чипсы, картофель фри, картофель по деревенски, мини хашбрауны, картофельные мини пирожки, 3 соуса на выбор**.
+							</div>
+							<div class="burg_price">
+								390 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="zac2">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger20.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Пивная тарелка
+							</div>
+							<div class="burg_const">
+								Домашние картофельные чипсы, гренки (2 вида), пирожки (2 вида: с томатом и базиликом, с сыром и зеленью), луковые кольца, фисташки, арахис, джерки, 2 соуса на выбор**
+							</div>
+							<div class="burg_price">
+								690 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="zac3">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger21.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Бекон и сыр
+							</div>
+							<div class="burg_const">
+								Картофель фри с беконом под домашним сырным соусом.
+							</div>
+							<div class="burg_price">
+								390 ₽
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+
+					<div class="zag_alc">
+						Напитки
+					</div>
+						<div class="alc1">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger22.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Weizen white
+							</div>
+							<div class="burg_const">
+								Светлое, крафтовое. Weizen — это пшеничный напиток в лучших баварских традициях. Нефильтрованный, непастеризованный, он хорошо утоляет жажду и очень легко пьется.
+							</div>
+							<div class="burg_price">
+								170 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc2">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger23.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Knightberg Clockwork
+							</div>
+							<div class="burg_const">
+								Крафтовое, светлое, нефильтрованное. Оригинальный вкус и аромат придает особая раса элевых дрожжей, используемая для производства ламбиков и криков.
+							</div>
+							<div class="burg_price">
+								120 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc3">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger24.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Krusovice
+							</div>
+							<div class="burg_const">
+								Светлое пиво Krusovice
+							</div>
+							<div class="burg_price">
+								70 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc4">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger25.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Weizen dark
+							</div>
+							<div class="burg_const">
+								Тёмное, крафтовое. В этом стауте соло играет не хмелевая, а солодовая составляющая. Напиток отличается мягкостью, плотностью и бархатистостью.
+							</div>
+							<div class="burg_price">
+								170 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc5">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger26.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Lovecraft Colours Of The Dark
+							</div>
+							<div class="burg_const">
+								Тёмное крафтовое пиво. За основу темный имперский стаут, соединяем с белизной, как предрассветное небо, лактозы. Инь и ян. В итоге имеем уникальный, неповторимый вкус.
+							</div>
+							<div class="burg_price">
+								130 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc6">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger27.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Krusovice
+							</div>
+							<div class="burg_const">
+								Тёмное пиво Krusovice
+							</div>
+							<div class="burg_price">
+								70 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc7">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger28.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Сок
+							</div>
+							<div class="burg_const">
+								Свежевыжатый сок на выбор:***
+								<ul>
+									<li>Помидор	Морковь</li>
+									<li>Лимон Киви</li>
+									<li>Апельсин Грейпрфут</li>
+									<li>Яблоко Персик</li>
+									<li>Ананас Банан</li>
+								</ul>
+							</div>
+							<div class="burg_price">
+								90 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc8">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger29.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Молочный коктель
+							</div>
+							<div class="burg_const">
+								Коктель с топингом на выбор:***
+								<ul>
+									<li>Шоколад Ваниль</li>
+									<li>Лимон Киви</li>
+									<li>Апельсин Грейпрфут</li>
+									<li>Яблоко Персик</li>
+									<li>Ананас Банан</li>
+								</ul> 
+							</div>
+							<div class="burg_price">
+								150 ₽/0.5л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="alc9">
+							<div class="burg_img">
+								<div class="kartinka" style="background-image: url('menu_img/burger30.png');">
+								</div>
+							</div>
+							<div class="burg_name">
+								Стакан воды
+							</div>
+							<div class="burg_const">
+								Просто стакан воды.
+							</div>
+							<div class="burg_price">
+								0 ₽/0.25л
+							</div>
+							<div class="burg_o_btn">
+								<button id="burg_btn">
+									Заказать
+								</button>
+							</div>
+						</div>
+						<div class="zag_snus">
+							<ul>
+								<li>* - К каждому бургеру автоматически идёт в коплект картофель фри и 1 соус на выбор**.</li>
+								<li>** - Список соусов: Кетчуп, Томантый, Сырный, Чесночный, Сальса, Песто, Карри, Кисло-сладкий, Терияки. Каждый соус выполнен по нашей уникальной рецептуре.</li>
+								<li>*** - Есть возможность выбора до 3 топингов одновременно.</li>
+							</ul> 
+						</div>
+				</div>
+
+			</div>
+
+		<!-- Декоративный элемент перед футером -->
+
+			<div class="polosa"></div>
+
+		<!-- Подвал -->
+
+			<div class="foot_baza">
+
+				<div class="foot">
+
+					<div class="foot_text_1">
+						Сеть Ресторанов
+					</div>
+
+					<div class="foot_text_2">
+						Автор: Хорошилов Виктор Сергеевич
+					</div>
+
+					<div class="foot_text_3">
+						Проект выполнен с помощью: HTML, CSS, JavaScript(+Jquery) <!--, PHP--> <!--, MySQL-->
+					</div>
+
+					<div class="foot_text_4">
+						© Данный проект нарушает наверное, много авторских прав, поэтому это всего лишь демонстрация навыков, не более.
+					</div>
+
+					<div class="foot_text_5">
+						2019
+					</div>
+
+				</div>
+
+			</div>
+
+		<!-- Кнопка для прокрутки вверх-->
+			<div id="arrowTop" hidden></div>
+			<script>
+				arrowTop.onclick = function() {
+					window.scrollTo(pageXOffset, 0);
+					/*behavior: "smooth"*/
+					// после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
+				};
+
+				window.addEventListener('scroll', function() {
+					arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+				});
+			</script>
+
+		<!--Корзина (макет)-->
+		<!--
+			<button id="show">Показать модальное окно!</button>
+			<div class="overlay"></div>
+			<div class="modal">
+				<span class="close">X</span>
+				<h3>Модальное окно</h3>
+				<p>Текст в модальном окне</p>
+			</div>
+
+			<script>
+				$(document).ready(function () {
+					/*Показ модального окна*/
+					$('#show').on('click', function () {
+								$('.overlay,.modal').show();
+							}
+					);
+					/*Закрытие модального окна*/
+					$('.overlay,.close').on('click',function(){
+						$('.overlay,.modal').hide();
+					});
+				});
+			</script>
+		-->
+	</body>
+</html>

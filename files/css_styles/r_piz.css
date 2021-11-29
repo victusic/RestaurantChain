@@ -1,0 +1,96 @@
+/* Сброс стилей*/
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+/*Тег body*/
+	body {
+		background-color: rgb(56, 56, 56);
+	}
+
+
+/*Размещение картинки*/
+
+	.kartinka{
+		width:100%;
+		height:100%; 
+		background-size:cover
+	}
+
+/*Ремонтные блоки*/
+
+	.r_name{
+		position: absolute;
+		left: 20%;
+		top:5%;
+		width:60%;
+		height:6%;
+
+		color: rgb(256, 256, 256);
+		font-size: 55px;
+		font-family: "Arial";
+		text-align: center;
+		line-height: 1.4;
+	}
+
+	.r_text{
+		position: absolute;
+		left: 30%;
+		top:16%;
+		width:40%;
+		height:8%;
+		
+		color: rgb(256, 256, 256);
+		font-size: 20px;
+		font-family: "Times new roman";
+		text-align: center;
+		line-height: 1.2;
+	}
+
+	.r_img{
+		position: absolute;
+		left: 35%;
+		top:35%;
+		width:30%;
+		height:61%;
+	}

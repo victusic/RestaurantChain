@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../css_styles/s_h.css" rel="stylesheet">
+		<title>i_sushi</title>
+		<script type="text/javascript" src="files/jquery/jquery-1.3.2.js"></script>
+	</head>
+	<body>
+		<div class="b_text">
+			↓ МЕНЮ ↓
+		</div>
+		<div class="b_name">
+			<div class="kartinka" style="background-image: url('logo/logo.png');"></div>
+			<div class="foot_line_r"></div>
+		</div>
+		<div class="b_btn_end">
+			<a href="../../restoraunt.html">
+				<div id="btn_3">
+					<div class="bt_text_">Вернуться назад</div>
+				</div>
+			</a>
+			<div class="foot_line_l"></div>
+		</div>
+		<div class="b_btn">
+			<div id="btn_1">
+				<div class="bt_img">
+					<div class="kartinka" style="background-image: url('system_btn/lk.png');"></div>
+				</div>
+				<div class="bt_text">Личный кабинет</div>
+			</div>
+			<div id="btn_2">
+				<div class="bt_img">
+					<div class="kartinka" style="background-image: url('system_btn/recucle.png');"></div>
+				</div>
+				<div class="bt_text">Корзина</div>
+			</div>
+		</div>
+		<div class="b_dst">
+			<div class="foot_line"></div>
+			<div class="kartinka" style="background-image: url('logo/sh2.png');"></div>
+			<div class="dos_name">Доставка</div>
+			<div class="foot_line_n"></div>
+			<div class="foot_line_r"></div>
+			<div class="dos_txt">Ресторан isushi заботится о своих покупателях и предоставляет им возможность заказать любимые блюда заранее, не тратя свое время на посещение заведения</p>
+				Телефон доставки:+7 965 45 777 41
+			</div>
+		</div>
+		<div class="b_map">
+			<div class="foot_line_n"></div>
+			<div class="foot_line"></div>
+			<div class="maps_c">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1409.07421700506!2d38.997628786325954!3d45.06249992314826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0459c242ab127%3A0xe1021e6ea2c6f4fe!2z0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrQvtC70LvQtdC00LYg0Y3Qu9C10LrRgtGA0L7QvdC90L7Qs9C-INC_0YDQuNCx0L7RgNC-0YHRgtGA0L7QtdC90LjRjyAo0JrQmtCt0J8p!5e0!3m2!1sru!2sru!4v1566077507522!5m2!1sru!2sru" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="b_menu"></div>
+		<div class="b_foot">
+			<div class="foot_baza">
+				<div class="foot_line"></div>
+
+				<div class="foot_text_1">
+					Сеть Ресторанов "Название ещё не придумал"
+				</div>
+
+				<div class="foot_text_2">
+					Автор: создатель всякой херни
+				</div>
+
+				<div class="foot_text_3">
+					Проект выполнен с помощью: HTML, CSS, JavaScript(+Jquery) <!--, PHP--> <!--, MySQL-->
+				</div>
+
+				<div class="foot_text_4">
+					© Данный проект нарушает наверное, много авторских прав, поэтому это всего лишь демонстрация навыков, не более...
+				</div>
+
+				<div class="foot_text_5">
+					2019
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card">
+
+			<!--Скрол общий для всех-->
+
+			<script type="text/javascript"> 
+				function slowScroll(id) { 
+					var offset = 0;
+					$('html, body').animate({ 
+						scrollleft: $(id).offset().left - offset 
+					}, 1000);
+					return false; 
+				} 
+			</script>
+
+
+			<div id="card--content_a">
+				<div id=m_top>
+					<div class="m_img_top">
+						<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-1.png');"></div>
+					</div>
+					<div class="m_btn_top">
+						<div class="kartinka" style="background-image: url('naprav/line/s_h_center.png');"></div>
+					</div>
+					<div class="m_txt_top">
+						Роллы
+					</div>
+				</div>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_b" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-2.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Горячие роллы
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Роллы классические-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol0.png');"></div>
+					</div>
+					<div class="m_name">Филадельфия</div>
+					<div class="m_snus">6 шт: Лосось, сливочный сыр, огурец, авокадо</div>
+					<div class="m_cost">210 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+			
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol1.png');"></div>
+					</div>
+					<div class="m_name">Ролл Тунец</div>
+					<div class="m_snus">6 шт: Водоросли Нори, суши рис, тунец</div>
+					<div class="m_cost">190 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol2.png');"></div>
+					</div>
+					<div class="m_name">Цунами</div>
+					<div class="m_snus">6 шт: Суши рис, тунец, лосось, сливочный сыр, авокадо, спаржа зелёная, оугрцы, икра красная</div>
+					<div class="m_cost">550 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol3.png');"></div>
+					</div>
+					<div class="m_name">Криспи Кани</div>
+					<div class="m_snus">6 шт: Суши рис, краб, огурцы, авокадо, соус Руй, хрустящие пшеничные шарики, икра масаго, овощи жаренные</div>
+					<div class="m_cost">380 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol4.png');"></div>
+					</div>
+					<div class="m_name">Фламинго</div>
+					<div class="m_snus">6 шт: Суши рис, креветки в кляре, авокадо, специальный соус, соус Руй, хрустящие пшеничные шарики</div>
+					<div class="m_cost">250 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol5.png');"></div>
+					</div>
+					<div class="m_name">Тунец Севиче</div>
+					<div class="m_snus">6 шт: Суши рис, краб, спаржа бланшированная, вяленые помидоры, тунец, соус Севиче, тесто Катаифи жаренное, икра мамсаго</div>
+					<div class="m_cost">380 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol6.png');"></div>
+					</div>
+					<div class="m_name">Салмон скил</div>
+					<div class="m_snus">6 шт: Суши рис, жаренная кожа лосося, редька маринованная, стружка тунца, игка масаго, соус спайси, майонез</div>
+					<div class="m_cost">180 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol7.png');"></div>
+					</div>
+					<div class="m_name">Калифорния</div>
+					<div class="m_snus">6 шт: Красная рыба, сливочный сыр, огурец, икра масаго</div>
+					<div class="m_cost">240 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol8.png');"></div>
+					</div>
+					<div class="m_name">Какаду</div>
+					<div class="m_snus">6 шт: Суши рис, креветка в кляре, редька маринованная, огурцы, соус Руй, икра масаго, хрустящие пшеничные шарики, соус спайси</div>
+					<div class="m_cost">350 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol9.png');"></div>
+					</div>
+					<div class="m_name">Рыбный дуо ролл</div>
+					<div class="m_snus">6 шт: Красная рыба, угорь, сурими, зелёная спаржа, соус терияки, соус спайси, кунжут</div>
+					<div class="m_cost">260 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol10.png');"></div>
+					</div>
+					<div class="m_name">Маки спайси тунец</div>
+					<div class="m_snus">6 шт: Нори жаренные, суши рис, тунец, соус спайси, лук зелёный, кунжут</div>
+					<div class="m_cost">160 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol11.png');"></div>
+					</div>
+					<div class="m_name">Хассаку</div>
+					<div class="m_snus">6 шт: Суши рис, хрустящие пшеничные шарики, сыр сливочный, спаржа бланшированная, помидоры, крем-соус пармезан
+						тунец маринованный, огурцы чука в маринаде, соус терияки</div>
+					<div class="m_cost">440 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol12.png');"></div>
+					</div>
+					<div class="m_name">Тори Кунсей</div>
+					<div class="m_snus">6 шт: Копчёная курица, сливочный сыр, листья салата, помидор, соус цезарь, зелёный лук, кунжут</div>
+					<div class="m_cost">160 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol13.png');"></div>
+					</div>
+					<div class="m_name">Аниме стронг</div>
+					<div class="m_snus">6 шт: Сурими, красная рыба, сливочный сыр, икра красная, икра масаго, спаржа зелёная, огурец</div>
+					<div class="m_cost">280 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol14.png');"></div>
+					</div>
+					<div class="m_name">Креветко-клярный ролл</div>
+					<div class="m_snus">6 шт: Креветка в кляре, огурец, майонез, икра масаго, кунжут</div>
+					<div class="m_cost">240 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol15.png');"></div>
+					</div>
+					<div class="m_name">Дракон</div>
+					<div class="m_snus">6 шт: Угорь, сливочный сыр, авокадо, огурец, соус терияки, кунжут</div>
+					<div class="m_cost">350 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+			
+			<div id="card--content_b">
+				<a href="#card--content_a" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-1.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Роллы
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_c" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-3.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Суши
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Роллы запечёные-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol16.png');"></div>
+					</div>
+					<div class="m_name">Канзас</div>
+					<div class="m_snus">6 шт: Бекон, сыр Моцарелла, огурец, помидор, листья салата, сливочный соус</div>
+					<div class="m_cost">200 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol17.png');"></div>
+					</div>
+					<div class="m_name">Мураками</div>
+					<div class="m_snus">6 шт: Угорь, красная рыба, креветка, огурец, сливочный сыр</div>
+					<div class="m_cost">190 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol18.png');"></div>
+					</div>
+					<div class="m_name">Ролл Мехико</div>
+					<div class="m_snus">6 шт: Суши рис, сыр сливочный, спаржа бланшированная, помидоры, тесто кляр, соус гуакамоле, лосось, икра красная, 
+						тесто катаифи жаренное</div>
+					<div class="m_cost">280 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol19.png');"></div>
+					</div>
+					<div class="m_name">Дикий лосось терияки</div>
+					<div class="m_snus">6 шт: Красная рыба, соус терияки, сливочный сыр, огурец, имбирь маринованный, 
+						сыр Моцарелла, зелёный лук</div>
+					<div class="m_cost">250 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol20.png');"></div>
+					</div>
+					<div class="m_name">Нежный сурими</div>
+					<div class="m_snus">6 шт: Сурими, авокадо, сливочный сыр, красная икра, икра масаго, майонез, зеленый лук</div>
+					<div class="m_cost">260 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol21.png');"></div>
+					</div>
+					<div class="m_name">Калифорния жаренная</div>
+					<div class="m_snus">6 шт: Сурими, авокадо, огурец, икра масаго, майонез</div>
+					<div class="m_cost">200 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol22.png');"></div>
+					</div>
+					<div class="m_name">Хотто хит</div>
+					<div class="m_snus">6 шт: Сурими, авокадо, сливочный сыр, икра масаго, майонез, красная рыба</div>
+					<div class="m_cost">260 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol23.png');"></div>
+					</div>
+					<div class="m_name">Микадо</div>
+					<div class="m_snus">6 шт: Сливочный сыр, спаржа зелёная, икра масаго, сырный соус с лососем и масаго, кунжут</div>
+					<div class="m_cost">210 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol24.png');"></div>
+					</div>
+					<div class="m_name">Домбай</div>
+					<div class="m_snus">6 шт: Красная рыба, угорь, сливочный сыр, огурец, майонез, икра масаго</div>
+					<div class="m_cost">330 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol25.png');"></div>
+					</div>
+					<div class="m_name">Токио</div>
+					<div class="m_snus">6 шт: Омлет, сливочный сыр, огурец, икра масаго, салат айсберг, сырный соус с креветками и масаго</div>
+					<div class="m_cost">190 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol26.png');"></div>
+					</div>
+					<div class="m_name">Находка</div>
+					<div class="m_snus">5 шт: Мидии, икра масаго, красная рыба, листья салата, майонез, соус спайси</div>
+					<div class="m_cost">220 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol27.png');"></div>
+					</div>
+					<div class="m_name">Кранч ролл</div>
+					<div class="m_snus">8 шт: КРеветка, сливочный сыр, зелёная спаржа, икра масаго</div>
+					<div class="m_cost">310 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol28.png');"></div>
+					</div>
+					<div class="m_name">Икорный кранч ролл</div>
+					<div class="m_snus">8 шт: Красная рыба, икра масаго, икра красная, сыр сливочный</div>
+					<div class="m_cost">300 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol29.png');"></div>
+					</div>
+					<div class="m_name">Темпура с креветкой</div>
+					<div class="m_snus">6 шт: Креветка, огурец, кунжут, имбирь маринованный, соус кунжутный</div>
+					<div class="m_cost">260 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+			
+			<div id="card--content_c">
+				<a href="#card--content_b" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/vsh-2.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Горячие роллы
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_d" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-4.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Сеты
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Суши-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol30.png');"></div>
+					</div>
+					<div class="m_name">Горячий тунец</div>
+					<div class="m_snus">1 шт: Рис, тунец, соус сливочный с масаго, водоросли Нори</div>
+					<div class="m_cost">85 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol31.png');"></div>
+					</div>
+					<div class="m_name">Острый тунец</div>
+					<div class="m_snus">1 шт: Рис, тунец, соус спайси, водоросли Нори</div>
+					<div class="m_cost">85 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol32.png');"></div>
+					</div>
+					<div class="m_name">Тунец</div>
+					<div class="m_snus">1 шт: Рис, тунец</div>
+					<div class="m_cost">80 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol33.png');"></div>
+					</div>
+					<div class="m_name">Горячий лосось</div>
+					<div class="m_snus">1 шт: Красная рыба, сливочный соус, икра масаго</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol34.png');"></div>
+					</div>
+					<div class="m_name">Лосось</div>
+					<div class="m_snus">1 шт: Рис, лосось</div>
+					<div class="m_cost">80 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol35.png');"></div>
+					</div>
+					<div class="m_name">Острый лосось</div>
+					<div class="m_snus">1 шт: Красная рыба, соус спайси, огурец</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol36.png');"></div>
+					</div>
+					<div class="m_name">Острая креветка</div>
+					<div class="m_snus">1 шт: Креветка, соус спайси, огурец</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol37.png');"></div>
+					</div>
+					<div class="m_name">Креветка</div>
+					<div class="m_snus">1 шт: Креветка, рис</div>
+					<div class="m_cost">70 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol38.png');"></div>
+					</div>
+					<div class="m_name">Горячий угорь</div>
+					<div class="m_snus">1 шт: Угорь, сливочный соус, икра масаго</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol39.png');"></div>
+					</div>
+					<div class="m_name">Угорь</div>
+					<div class="m_snus">1 шт: Угорь, рис</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol40.png');"></div>
+					</div>
+					<div class="m_name">Острый угорь</div>
+					<div class="m_snus">1 шт: Угорь, соус спайси, огурец</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol41.png');"></div>
+					</div>
+					<div class="m_name">Горячии мидии</div>
+					<div class="m_snus">1 шт: Мясо мидий, сливочный соус, икра масаго</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+
+			<div id="card--content_d">
+				<a href="#card--content_c" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-3.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Суши
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_e" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-5.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Салаты
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Сеты-->	
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol42.png');"></div>
+					</div>
+					<div class="m_name">Сет Свидание</div>
+					<div class="m_snus">32 шт: Ролл Зеленый Дракон, Ролл Тетрис, Ролл Фламинго, Ролл Лайт</div>
+					<div class="m_cost">625 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol43.png');"></div>
+					</div>
+					<div class="m_name">Сет City</div>
+					<div class="m_snus">40 шт: Ролл Норвежский, Ролл Сансей, Ролл Цезарь, Ролл Чиз лосось, Ролл Филадельфия с лососем и крабом</div>
+					<div class="m_cost">835 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol44.png');"></div>
+					</div>
+					<div class="m_name">Сет Галактика</div>
+					<div class="m_snus">62 шт: Ролл Сансей, Ролл Тутти Фрутти, Ролл Цезарь, Ролл Хоккайдо, Ролл Лайт, Ролл Филадельфия классик, Ролл Филадельфия с лососем и крабом, 
+						Ролл Шиитаке</div>
+					<div class="m_cost">1360 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol45.png');"></div>
+					</div>
+					<div class="m_name">Сет Сотня</div>
+					<div class="m_snus">102 шт: Ролл Лосось, Ролл Овощной, Ролл Сансей, Ролл Хрустящее наслаждение, Ролл Огурец, Ролл Хоккайдо, Ролл Калифорния классик,
+						Ролл Филадельфия классик</div>
+					<div class="m_cost">2280 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol46.png');"></div>
+					</div>
+					<div class="m_name">Сет Филадельфия</div>
+					<div class="m_snus">24 шт: Ролл Филадельфия с лососем и крабом, Ролл Филадельфия классик, Ролл Филадельфия спешл</div>
+					<div class="m_cost">645 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol47.png');"></div>
+					</div>
+					<div class="m_name">Сет Огонь</div>
+					<div class="m_snus">24 шт: Ролл Хоккайдо, Ролл Филадельфия с лососем и крабом, Ролл Итальянский</div>
+					<div class="m_cost">595 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol48.png');"></div>
+					</div>
+					<div class="m_name">Сет Инь-Янь</div>
+					<div class="m_snus">32 шт: Ролл Креветка, Ролл Лосось, Ролл Огурец, Ролл Вулкан</div>
+					<div class="m_cost">410 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol49.png');"></div>
+					</div>
+					<div class="m_name">Сет Шеф Микс</div>
+					<div class="m_snus">32 шт: Ролл Вулкан, Ролл Манго-Личи, Ролл Парадайз, Ролл Тропикана, Ролл Шиитаке</div>
+					<div class="m_cost">855 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol50.png');"></div>
+					</div>
+					<div class="m_name">Сет Вечеринка</div>
+					<div class="m_snus">40 шт: Ролл Зеленый Дракон, Ролл Тетрис, Ролл Филадельфия классик, Ролл Калифорния классик, Ролл Сансей</div>
+					<div class="m_cost">810 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol51.png');"></div>
+					</div>
+					<div class="m_name">Сет Запечённый</div>
+					<div class="m_snus">36 шт: Ролл Хоккайдо, Ролл Киото, Ролл Филадельфия с лососем и крабом, Ролл Цыпа</div>
+					<div class="m_cost">825 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol52.png');"></div>
+					</div>
+					<div class="m_name">Сет Казантип</div>
+					<div class="m_snus">72 шт: Ролл Креветка, Ролл Лосось, Ролл Огурец, Ролл Калифорния классик, Ролл Калифорния с лососем, Ролл Филадельфия классик, Ролл Годзилла, 
+						Ролл Вулкан, Ролл Манго-Личи</div>
+					<div class="m_cost">1365 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+
+			<div id="card--content_e">
+				<a href="#card--content_d" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-4.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Сеты
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_f" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-6.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Закуски
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Салаты-->
+				<div id="card--content_1">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol53.png');"></div>
+					</div>
+					<div class="m_name">Цезарь с курицей</div>
+					<div class="m_snus">Курица, литься салата Ромен, вусторский соус, соус с анчоусами, яйца</div>
+					<div class="m_cost">230 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol54.png');"></div>
+					</div>
+					<div class="m_name">Чука</div>
+					<div class="m_snus">Маринованные водоросли с кунжутным соусом и лепестками арахиса</div>
+					<div class="m_cost">190 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol55.png');"></div>
+					</div>
+					<div class="m_name">Фунчоза с креветками</div>
+					<div class="m_snus">Фирменный тёплый салат с креветками, крахмальной лапшой и миксом из овощей</div>
+					<div class="m_cost">190 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol56.png');"></div>
+					</div>
+					<div class="m_name">Салат с креветками и авокадо</div>
+					<div class="m_snus">С миксом салатов, сельдереем и майонезно-цитрусовой заправкой</div>
+					<div class="m_cost">350 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol57.png');"></div>
+					</div>
+					<div class="m_name">Зелёный салат</div>
+					<div class="m_snus">Салат с зелёными яблоками, авокадо, грецкими орехами, миксами салатов и медово-цитросовой заправкой</div>
+					<div class="m_cost">250 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol58.png');"></div>
+					</div>
+					<div class="m_name">Салат Крем-фрэш</div>
+					<div class="m_snus">Салат из свежих овощей с креветками и рассольным сыром</div>
+					<div class="m_cost">340 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+
+			<div id="card--content_f">
+				<a href="#card--content_e" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-5.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Салаты
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_g" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-7.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Лапша/рис
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Закуски-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol59.png');"></div>
+					</div>
+					<div class="m_name">Дим-самы крабовые</div>
+					<div class="m_snus">Тесто крахмальное, краб, карамельно-соевый соус, масло зелёное, лук зелёный, острая приправа тогараши</div>
+					<div class="m_cost">380 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol60.png');"></div>
+					</div>
+					<div class="m_name">Дим-самы куриные</div>
+					<div class="m_snus">Тесто крахмальное, курица, карамельно-соевый соус, масло зелёное, лук зелёный, острая приправа тогараши</div>
+					<div class="m_cost">250 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol61.png');"></div>
+					</div>
+					<div class="m_name">Мидии в сливочном соусе</div>
+					<div class="m_snus">Мидии, чесночный соус, сливки, белое вино</div>
+					<div class="m_cost">390 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol62.png');"></div>
+					</div>
+					<div class="m_name">Мидии запечёные</div>
+					<div class="m_snus">Мидии, икорный соус, панировка</div>
+					<div class="m_cost">390 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol63.png');"></div>
+					</div>
+					<div class="m_name">Мидии в соусе Блю чиз</div>
+					<div class="m_snus">Мидии, соус блю чиз, подаются с хлебом по-восточному и лимоном</div>
+					<div class="m_cost">490 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol64.png');"></div>
+					</div>
+					<div class="m_name">Мидии Сальса-росса</div>
+					<div class="m_snus">Мидии, томатный соус, подаются с хлебом по-восточному и лимоном</div>
+					<div class="m_cost">490 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol65.png');"></div>
+					</div>
+					<div class="m_name">Креветочные чипсы</div>
+					<div class="m_snus">Креветки</div>
+					<div class="m_cost">90 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+
+			<div id="card--content_g">
+				<a href="#card--content_f" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-6.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Закуски
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_h" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-8.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Соусы
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Лапша/Рис-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol66.png');"></div>
+					</div>
+					<div class="m_name">Спагетти с грибами и трюфельным маслом</div>
+					<div class="m_snus">Спагетти, грибы (вешёнки, опята маринованные), шпинат, бульон куриный, яйцо, сыр пармезан, масло трюфельное</div>
+					<div class="m_cost">520 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol67.png');"></div>
+					</div>
+					<div class="m_name">Удон с курицей и овощами</div>
+					<div class="m_snus">Лапша, курица, микс овощей, соус терияки, соевый соус, кунжут</div>
+					<div class="m_cost">240 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol68.png');"></div>
+					</div>
+					<div class="m_name">Удон с морепродуктами</div>
+					<div class="m_snus">Лапша, кальмары, мидии, креветки, овощной микс, соус хойсин</div>
+					<div class="m_cost">330 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol69.png');"></div>
+					</div>
+					<div class="m_name">Лапша с курицей и креветками</div>
+					<div class="m_snus">Рисовая лапша, курица, креветки, грибы, соус терияки, болгарский перец, огурцы, имбирь</div>
+					<div class="m_cost">330 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol70.png');"></div>
+					</div>
+					<div class="m_name">Жаренный рис с овощами</div>
+					<div class="m_snus">Рис, овощи, соевый соус, кунжутное масло</div>
+					<div class="m_cost">170 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol71.png');"></div>
+					</div>
+					<div class="m_name">Жаренный рис с морепродуктами</div>
+					<div class="m_snus">Рис, кальмары, мидии, креветки, микс овощей, кунжут, соевый соус, острая приправа сичими, прирава торагаши,
+						кунжутное масло. Подаётся с куриным яйцом</div>
+					<div class="m_cost">300 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol72.png');"></div>
+					</div>
+					<div class="m_name">Спагетти со шпинатом</div>
+					<div class="m_snus">Спагетти, шпинат, сливочный сыр, помидоры, пармезан, кедровые орехи, руккола</div>
+					<div class="m_cost">250 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+
+			<div id="card--content_h">
+				<a href="#card--content_g" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_top">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-7.png');"></div>
+						</div>
+						<div class="m_btn_top">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_top">
+							Лапша/рис
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<a href="#card--content_s" onclick="slowScroll()">
+					<div id=m_bottom>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-9.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_right.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Напитки
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Соусы-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol73.png');"></div>
+					</div>
+					<div class="m_name">Соус бальзамика</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol74.png');"></div>
+					</div>
+					<div class="m_name">Васаби</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol75.png');"></div>
+					</div>
+					<div class="m_name">Соус Песто</div>
+					<div class="m_cost">25 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol76.png');"></div>
+					</div>
+					<div class="m_name">Имбирь маринованный</div>
+					<div class="m_cost">30 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol77.png');"></div>
+					</div>
+					<div class="m_name">Соус цезарь</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol78.png');"></div>
+					</div>
+					<div class="m_name">Масло оливковое</div>
+					<div class="m_cost">20 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol79.png');"></div>
+					</div>
+					<div class="m_name">Заправка греческая</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol80.png');"></div>
+					</div>
+					<div class="m_name">Соус Гомадаре</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol81.png');"></div>
+					</div>
+					<div class="m_name">Соус кисло-сладкий</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol82.png');"></div>
+					</div>
+					<div class="m_name">Соус томатный</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol83.png');"></div>
+					</div>
+					<div class="m_name">Соус Барбекю по-китайски</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol84.png');"></div>
+					</div>
+					<div class="m_name">Соус Терияки</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol85.png');"></div>
+					</div>
+					<div class="m_name">Луковый джем </div>
+					<div class="m_cost">20 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol86.png');"></div>
+					</div>
+					<div class="m_name">Соус Спайси</div>
+					<div class="m_cost">10 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol87.png');"></div>
+					</div>
+					<div class="m_name">Кетчуп</div>
+					<div class="m_cost">5 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+		
+			<div id="card--content_s">
+				<a href="#card--content_h" onclick="slowScroll()">
+					<div id=m_top>
+						<div class="m_img_bottom">
+							<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-8.png');"></div>
+						</div>
+						<div class="m_btn_bottom">
+							<div class="kartinka" style="background-image: url('naprav/line/s_h_left.png');"></div>
+						</div>
+						<div class="m_txt_bottom">
+							Соусы
+						</div>
+					</div>
+				</a>
+				<div class="m_cost_0"></div>
+				<div id=m_bottom>
+					<div class="m_img_top">
+						<div class="kartinka" style="background-image: url('naprav/fcs_img/sh-9.png');"></div>
+					</div>
+					<div class="m_btn_top">
+						<div class="kartinka" style="background-image: url('naprav/line/s_h_center.png');"></div>
+					</div>
+					<div class="m_txt_top">
+						Напитки
+					</div>
+				</div>
+			</div>
+
+			<!--Напитки-->
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol88.png');"></div>
+					</div>
+					<div class="m_name">Саке</div>
+					<div class="m_cost">850 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol89.png');"></div>
+					</div>
+					<div class="m_name">Вино белое</div>
+					<div class="m_cost">490 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol90.png');"></div>
+					</div>
+					<div class="m_name">Вино красное</div>
+					<div class="m_cost">520 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol91.png');"></div>
+					</div>
+					<div class="m_snus">
+						<ul>
+							<li>Чёрный</li>
+							<li>Зелёный</li>
+							<li>Белый</li>
+							<li>Ягодный</li>
+							<li>Фруктовый</li>
+							<li>Ромашковый</li>
+						</ul> 
+					</div>
+					<div class="m_name">Чай</div>
+					<div class="m_cost"> 50 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol92.png');"></div>
+					</div>
+					<div class="m_snus">
+						<ul>
+							<li>Американо - 100 ₽</li>
+							<li>Капучино - 120 ₽</li>
+							<li>Латте - 120 ₽</li>
+							<li>Гляссе - 120 ₽</li>
+							<li>Эспрессо - 80 ₽</li>
+							<li>Антистрессо - 20 ₽</li>
+							<li>Антидепрессо - 0 ₽</li>
+						</ul> 
+					</div>
+					<div class="m_name">Кофе</div>
+					<div class="m_cost"> 20 - 120₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol93.png');"></div>
+					</div>
+					<div class="m_snus">
+						<ul>
+							<li>Киви</li>
+							<li>Апельсин</li>
+							<li>Грейпрфут</li>
+							<li>Яблоко</li>
+							<li>Персик</li>
+							<li>Ананас</li>
+							<li>Банан</li>
+						</ul> 
+					</div>
+					<div class="m_name">Свежевыжатый сок</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+				<div class="card--content">
+					<div class="m_img">
+						<div class="kartinka" style="background-image: url('menu_img/rol94.png');"></div>
+					</div>
+					<div class="m_snus">
+						<ul>
+							<li>Шоколад</li>
+							<li>Ваниль</li>
+							<li>Киви</li>
+							<li>Апельсин</li>
+							<li>Яблоко</li>
+							<li>Ананас</li>
+							<li>Банан</li>
+						</ul> 
+					</div>
+					<div class="m_name">Молочный коктель</div>
+					<div class="m_cost">15 ₽</div>
+					<div class="m_btn"><button id="btn">Заказать</button></div>
+				</div>
+		
+		</div>
+	</body>
+</html>

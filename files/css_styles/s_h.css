@@ -1,0 +1,716 @@
+/* Сброс стилей*/
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+/*Основные блоки*/
+
+	body{
+		background-color: rgb(0, 0, 0);
+		overflow: hidden;
+	}
+
+	.b_text{
+		position: absolute;
+		top: 58.5%;
+		left: -12.1%;
+		width: 25%;
+		height: 2.4%;
+		background-color: rgb(56, 56, 56);
+		z-index: 101;
+		transform: rotate(-90deg);
+
+		text-align: center;
+		font-family: Century Gothic;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 2;
+		opacity: 0.5;
+	}
+
+	.b_name{
+		position: absolute;
+		left: 5%;
+		width: 80%;
+		height: 15%;
+		background-color: rgb(256, 0, 0);
+
+	}
+
+	.b_btn{
+		position: absolute;
+		left: 85%;
+		width: 15%;
+		height: 15%;
+		background-color: rgb(0, 256, 0);
+	}
+
+	.b_btn_end{
+		position: absolute;
+		width: 5%;
+		height: 15%;
+		background-color: rgb(0, 256, 0);
+	}
+
+	.b_dst{
+		position: absolute;
+		top: 15%;
+		width: 60%;
+		height: 20%;
+		background-color: rgb(0, 0, 256);
+	}
+
+	.b_map{
+		position: absolute;
+		top: 15%;
+		left: 60%;
+		width: 40%;
+		height: 20%;
+	}
+
+	.b_foot{
+		position: absolute;
+		top: 85%;
+		width: 100%;
+		height: 15%;
+		background-color: rgb(256, 256, 0);
+	}
+
+	.card {
+		position: absolute;
+		top: -39.5%;
+		left: 37.5%;
+		width: 25%;
+		height: 199%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		transform: rotate(270deg);
+	}
+
+	.card::-webkit-scrollbar {
+		display: none;
+	}
+
+	.card--content {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		outline-color: rgb(256, 256, 256);
+		outline-style: dashed;
+		outline-width: 1px;
+	}
+
+	#card--content_a {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_b {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_c {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_d {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_e {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_f {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_g {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_h {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+	#card--content_s {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		border-radius: 25px;
+	}
+
+
+	#card--content_1 {
+		/*Высота*/
+		width: 240px;
+		/*Ширина*/
+		height: 420px;
+		/*Отступы наоборот*/
+		margin-top: -60px ;
+		margin-left: 120px;
+		transform: rotate(90deg);
+
+		outline-color: rgb(256, 256, 256);
+		outline-style: dashed;
+		outline-width: 1px;
+	}
+
+/*Содержимое меню*/
+	.m_img{
+		position: absolute;
+		top: 5%;
+		left: 2.5%;
+		width: 95%;
+		height: 50%;
+	}
+
+	.m_name{
+		position: absolute;
+		top: 57.5%;
+		left: 1%;
+		width: 98%;
+		height: 5%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 16px;
+		color: rgb(254, 254, 34);
+		line-height: 0.6;
+	}
+
+	.m_snus{
+		position: absolute;
+		top: 64.5%;
+		left: 10%;
+		width: 80%;
+		height: 22%; 
+
+		text-align: center;
+		font-family: Times new Roman;
+		font-size: 14px;
+		color: rgb(156, 156, 156);
+	}
+
+	.m_cost{
+		position: absolute;
+		top: 92.5%;
+		left: 5%;
+		width: 42%;
+		height: 5%;
+
+		text-align: center;
+		font-family: Times new Roman;
+		font-size: 16px;
+		color: rgb(56, 56, 56);
+	}
+
+	/*Разделительная линия*/
+	.m_cost_0{
+		position: absolute;
+		top: 49.75%;
+		left: 0%;
+		width: 100%;
+		height: 0.5%;
+		background-color: rgb(156, 156, 156);
+	}
+
+
+	.m_btn{
+		position: absolute;
+		top: 88.5%;
+		right: 5%;
+		width: 42%;
+		height: 10%;
+	}
+
+/*Размещение картинки*/
+
+	.kartinka{
+		width:100%;
+		height:100%;
+		background-size:cover;
+	}
+
+/*Подвал*/
+
+	/*Объекты*/
+
+		.foot_line{
+			position: absolute;
+			width: 100%;
+			background-color: rgb(256, 256, 256);
+			height: 1%;
+		}
+
+		.foot_line_n{
+			position: absolute;
+			bottom:0%;
+			width: 100%;
+			background-color: rgb(256, 256, 256);
+			height: 1%;
+		}
+
+		.foot_line_r{
+			position: absolute;
+			right: 0%;
+			top: 0%;
+			width: 0.2%;
+			background-color: rgb(256, 256, 256);
+			height: 100%;
+		}
+
+		.foot_line_l{
+			position: absolute;
+			right: 0%;
+			top: 0%;
+			width:3%;
+			background-color: rgb(256, 256, 256);
+			height: 100%;
+		}
+
+
+		.foot_baza{
+			position: relative;
+			width: 100%;
+			background-color: rgb(0, 0, 0);
+			height: 100%;
+		}
+
+		.foot_text_1{
+			position: absolute;
+
+			width: 100%;
+
+			top: 2%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 0, 0);*/
+
+			color: rgb(256, 256, 256);
+			font-size: 18px;
+			font-family: "Times new roman";
+			text-align: center;
+		}
+
+		.foot_text_2{
+			position: absolute;
+
+			width: 100%;
+
+			top: 25%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 256, 0);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 14px;
+			font-family: "Times new roman";
+			text-align: center;
+		}
+
+		.foot_text_3{
+			position: absolute;
+
+			width: 100%;
+
+			top: 43.5%;
+
+			height: 15%;
+
+			/*background-color: rgb(0, 256, 0);*/
+
+			color: rgb(256, 256, 256);
+			font-size: 16px;
+			font-family: "Times new roman";
+			text-align: left;
+		}
+
+		/*Завышенный подъем для влезания текста в объект подвала*/
+
+		.foot_text_4{
+			position: absolute;
+
+			width: 90%;
+
+			top: 82%;
+
+			height: 15%;
+
+			/*background-color: rgb(0, 0, 256);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 16px;
+			font-family: "Times new roman";
+			text-align: left;
+		}
+
+		.foot_text_5{
+			position: absolute;
+
+			width: 10%;
+
+			left: 90%;
+
+			top: 80%;
+
+			height: 15%;
+
+			/*background-color: rgb(256, 0, 256);*/
+
+			color: rgb(254, 254, 34);
+			font-size: 18px;
+			font-family: "Times new roman";
+			text-align: right;
+		}
+
+/*Доставка*/
+
+	.dos_name{
+		position: absolute;
+		top: 1%;
+		width: 80%;
+		height: 15%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 200%;
+		color: rgb(254, 254, 34);
+		line-height: 1.7;
+	}
+
+	.dos_txt{
+		position: absolute;
+		width: 60%;
+		height: 50%;
+		top: 30%;
+		left: 5%;
+		font-family: Arial;
+		font-size: 20px;
+		color: rgb(256, 256, 256);
+	}
+
+/*Кнопки*/
+	
+	#btn_1{
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		background-color: rgb(56, 56, 56); 
+	}
+
+	#btn_1:hover{
+		background-color: rgb(156, 156, 156); 
+	}
+
+	#btn_2{
+		left: 50%;
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		background-color: rgb(56, 56, 56); 
+	}
+
+	#btn_2:hover{
+		background-color: rgb(156, 156, 156); 
+	}
+
+	#btn_3{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(56, 56, 56); 
+	}
+
+	#btn_3:hover{
+		background-color: rgb(156, 156, 156); 
+	}
+
+	.bt_img{
+		top: 10%;
+		right: 17%;
+		position: absolute;
+		width: 66%;
+		height: 60%;
+	}
+
+	.bt_text{
+		position: absolute;
+		top: 80%;
+		width: 100%;
+		height: 15%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 18px;
+		color: rgb(256, 256, 256);
+
+		transform: rotate(-5deg);
+	}
+
+	.bt_text_{
+		position: absolute;
+		right: -50%;
+		top: 43%;
+		width: 190%;
+		height: 15%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 18px;
+		color: rgb(256, 256, 256);
+
+		transform: rotate(-70deg);
+	}
+
+/*Карты*/
+	.maps_c{
+		position: absolute;
+		top: 8%;
+		width: 96%;
+		height: 84%;
+		left: 2%;
+	}
+
+/**/
+	#btn{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(56, 56, 56);
+
+		border-width: 0px;
+		border-radius: 90px;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 16px;
+		color: rgb(256, 256, 256);
+		line-height: 1.6;
+	}
+
+	#btn:hover{
+		color: rgb(254, 254, 34);
+	}
+
+
+/*Навигационный блок*/
+	
+	#m_top{
+		position: absolute;
+		width: 100%;
+		height: 49.75%;
+		background-color: rgb(56, 56, 56);
+
+		border-radius: 25px 25px 0 0;
+	}
+
+	.m_img_top{
+		position: absolute;
+		top: 1%;
+		left: 25%;
+		width: 50%;
+		height: 40%;
+	}
+
+	.m_txt_top{
+		position: absolute;
+		top: 45%;
+		right: 45%;
+		width: 80%;
+		height: 10%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 22px;
+		color: rgb(156, 156, 156);
+		line-height: 0.6;
+		transform: rotate(-90deg);
+
+	}
+
+	.m_btn_top{
+		position: absolute;
+		bottom: 5%;
+		left: 30%;
+		width: 40%;
+		height: 46%;
+	}
+
+	#m_top:hover{
+		background-color: rgb(254, 254, 34);
+	}
+
+	#m_bottom{
+		position: absolute;
+		bottom: 0%;
+		width: 100%;
+		height: 49.75%;
+		background-color: rgb(56, 56, 56);
+
+		border-radius: 0 0 25px 25px;
+	}
+
+	.m_img_bottom{
+		position: absolute;
+		bottom: 5%;
+		left: 30%;
+		width: 40%;
+		height: 40%;
+	}
+
+	.m_btn_bottom{
+		position: absolute;
+		top: 5%;
+		left: 30%;
+		width: 40%;
+		height: 46%;
+	}
+
+	.m_txt_bottom{
+		position: absolute;
+		top: 45%;
+		left: 45%;
+		width: 80%;
+		height: 10%;
+
+		text-align: center;
+		font-family: Arial;
+		font-size: 22px;
+		color: rgb(156, 156, 156);
+		line-height: 0.6;
+		transform: rotate(-90deg);
+	}
+
+	#m_bottom:hover{
+		background-color: rgb(254, 254, 34);
+	}
+
+	
