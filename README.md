@@ -1,2 +1,2 @@
 # Restaurant_chain
-Web
+Web проект многолетней выдержки
